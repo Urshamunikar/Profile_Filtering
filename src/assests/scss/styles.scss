@@ -1,0 +1,38 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;200&family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 30px;
+}
+
+// colors
+$gray-1: #AAB0BE;
+$gray-2: #C4C4C4;
+$gray-3: #A8A9A8;
+$gray-4: #CCCCCC;
+
+$white-1: #FAFAFA;
+$white-2: #FFFFFF;
+
+$black-1: #121416;
+
+$green-1: #5FDBA7;
+
+$yellow-1: #F3AD63;
+
+$blue-1: #0F60DA;
+
+
+
+//scenes 
+@import "./home";
+@import "./profileDetail";
